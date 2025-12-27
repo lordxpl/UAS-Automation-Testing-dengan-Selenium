@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoBlaze Automation UAS Suite">
+
+    <test name="Full End to End Automation">
+        <classes>
+            <class name="com.praktikum.uas.automation.tests.HomePageTest"/>
+            <class name="com.praktikum.uas.automation.tests.SignUpPageTest"/>
+            <class name="com.praktikum.uas.automation.tests.LoginPageTest"/>
+            <class name="com.praktikum.uas.automation.tests.ProductInfoPageTest"/>
+            <class name="com.praktikum.uas.automation.tests.CartPageTest"/>
+            <class name="com.praktikum.uas.automation.tests.PaymentInfoPageTest"/>
+        </classes>
+    </test>
+</suite>
