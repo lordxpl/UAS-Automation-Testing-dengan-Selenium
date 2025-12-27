@@ -1,0 +1,8 @@
+com\praktikum\uas\automation\pages\LoginPage.class
+com\praktikum\uas\automation\pages\HomePage.class
+com\praktikum\uas\automation\base\BasePage.class
+com\praktikum\uas\automation\pages\CartPage.class
+com\praktikum\uas\automation\pages\PaymentInfoPage.class
+com\praktikum\uas\automation\pages\SignUpPage.class
+com\praktikum\uas\automation\config\ConfigReader.class
+com\praktikum\uas\automation\pages\ProductInfoPage.class

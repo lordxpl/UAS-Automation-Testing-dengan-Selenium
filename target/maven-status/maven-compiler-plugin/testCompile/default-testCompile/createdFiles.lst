@@ -1,0 +1,8 @@
+com\praktikum\uas\automation\base\BaseTest.class
+com\praktikum\uas\automation\tests\SignUpPageTest.class
+com\praktikum\uas\automation\Main.class
+com\praktikum\uas\automation\tests\PaymentInfoPageTest.class
+com\praktikum\uas\automation\tests\LoginPageTest.class
+com\praktikum\uas\automation\tests\CartPageTest.class
+com\praktikum\uas\automation\tests\HomePageTest.class
+com\praktikum\uas\automation\tests\ProductInfoPageTest.class

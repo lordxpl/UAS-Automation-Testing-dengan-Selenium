@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-27T05:44:43 WIB" name="DemoBlaze Automation UAS Suite" finished-at="2025-12-27T05:45:53 WIB" duration-ms="70169">
+    <groups>
+      <group name="ProductSelection">
+        <method signature="ProductInfoPageTest.testAddPhoneToCart()[pri:1, instance:com.praktikum.uas.automation.tests.ProductInfoPageTest@489115ef]" name="testAddPhoneToCart" class="com.praktikum.uas.automation.tests.ProductInfoPageTest"/>
+        <method signature="ProductInfoPageTest.testAddLaptopToCart()[pri:3, instance:com.praktikum.uas.automation.tests.ProductInfoPageTest@489115ef]" name="testAddLaptopToCart" class="com.praktikum.uas.automation.tests.ProductInfoPageTest"/>
+        <method signature="ProductInfoPageTest.testAddMonitorToCart()[pri:4, instance:com.praktikum.uas.automation.tests.ProductInfoPageTest@489115ef]" name="testAddMonitorToCart" class="com.praktikum.uas.automation.tests.ProductInfoPageTest"/>
+      </group> <!-- ProductSelection -->
+    </groups>
+    <test started-at="2025-12-27T05:44:43 WIB" name="Full End to End Automation" finished-at="2025-12-27T05:45:53 WIB" duration-ms="70169">
+      <class name="com.praktikum.uas.automation.tests.CartPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.praktikum.uas.automation.tests.CartPageTest@3857f613]" started-at="2025-12-27T05:45:17 WIB" name="setUp" finished-at="2025-12-27T05:45:18 WIB" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.praktikum.uas.automation.tests.CartPageTest@3857f613]" started-at="2025-12-27T05:45:18 WIB" name="setupTest" finished-at="2025-12-27T05:45:21 WIB" duration-ms="2978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testProductVisibilityInCart()[pri:1, instance:com.praktikum.uas.automation.tests.CartPageTest@3857f613]" started-at="2025-12-27T05:45:21 WIB" name="testProductVisibilityInCart" description="Verifikasi produk tampil di tabel keranjang" finished-at="2025-12-27T05:45:22 WIB" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductVisibilityInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.praktikum.uas.automation.tests.CartPageTest@3857f613]" started-at="2025-12-27T05:45:22 WIB" name="tearDown" finished-at="2025-12-27T05:45:22 WIB" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.praktikum.uas.automation.tests.CartPageTest@3857f613]" started-at="2025-12-27T05:45:22 WIB" name="setUp" finished-at="2025-12-27T05:45:24 WIB" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.praktikum.uas.automation.tests.CartPageTest@3857f613]" started-at="2025-12-27T05:45:24 WIB" name="setupTest" finished-at="2025-12-27T05:45:28 WIB" duration-ms="3653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testDeleteProduct()[pri:2, instance:com.praktikum.uas.automation.tests.CartPageTest@3857f613]" started-at="2025-12-27T05:45:28 WIB" name="testDeleteProduct" description="Verifikasi fungsi hapus produk (Delete)" finished-at="2025-12-27T05:45:41 WIB" duration-ms="13029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.praktikum.uas.automation.tests.CartPageTest@3857f613]" started-at="2025-12-27T05:45:41 WIB" name="tearDown" finished-at="2025-12-27T05:45:41 WIB" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.praktikum.uas.automation.tests.CartPageTest -->
+      <class name="com.praktikum.uas.automation.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.praktikum.uas.automation.tests.LoginPageTest@3cd3e762]" started-at="2025-12-27T05:44:55 WIB" name="setUp" finished-at="2025-12-27T05:44:57 WIB" duration-ms="1704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.praktikum.uas.automation.tests.LoginPageTest@3cd3e762]" started-at="2025-12-27T05:44:57 WIB" name="setupTest" finished-at="2025-12-27T05:44:57 WIB" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.praktikum.uas.automation.tests.LoginPageTest@3cd3e762]" started-at="2025-12-27T05:44:57 WIB" name="testLogin" description="Pengujian Login dengan berbagai skenario data" data-provider="LoginData" finished-at="2025-12-27T05:44:58 WIB" duration-ms="1087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user_tidak_ada_123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[salah_pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.praktikum.uas.automation.tests.LoginPageTest@3cd3e762]" started-at="2025-12-27T05:44:58 WIB" name="tearDown" finished-at="2025-12-27T05:44:58 WIB" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.praktikum.uas.automation.tests.LoginPageTest@3cd3e762]" started-at="2025-12-27T05:44:58 WIB" name="setUp" finished-at="2025-12-27T05:45:00 WIB" duration-ms="1482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.praktikum.uas.automation.tests.LoginPageTest@3cd3e762]" started-at="2025-12-27T05:45:00 WIB" name="setupTest" finished-at="2025-12-27T05:45:00 WIB" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.praktikum.uas.automation.tests.LoginPageTest@3cd3e762]" started-at="2025-12-27T05:45:00 WIB" name="testLogin" description="Pengujian Login dengan berbagai skenario data" data-provider="LoginData" finished-at="2025-12-27T05:45:00 WIB" duration-ms="612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user_arga_uas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.praktikum.uas.automation.tests.LoginPageTest@3cd3e762]" started-at="2025-12-27T05:45:00 WIB" name="tearDown" finished-at="2025-12-27T05:45:01 WIB" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.praktikum.uas.automation.tests.LoginPageTest -->
+      <class name="com.praktikum.uas.automation.tests.PaymentInfoPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.praktikum.uas.automation.tests.PaymentInfoPageTest@198b6731]" started-at="2025-12-27T05:45:41 WIB" name="setUp" finished-at="2025-12-27T05:45:43 WIB" duration-ms="1886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.praktikum.uas.automation.tests.PaymentInfoPageTest@198b6731]" started-at="2025-12-27T05:45:43 WIB" name="setupTest" finished-at="2025-12-27T05:45:46 WIB" duration-ms="3440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="verifyPurchaseWithoutInfo()[pri:1, instance:com.praktikum.uas.automation.tests.PaymentInfoPageTest@198b6731]" started-at="2025-12-27T05:45:46 WIB" name="verifyPurchaseWithoutInfo" finished-at="2025-12-27T05:45:47 WIB" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPurchaseWithoutInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.praktikum.uas.automation.tests.PaymentInfoPageTest@198b6731]" started-at="2025-12-27T05:45:47 WIB" name="tearDown" finished-at="2025-12-27T05:45:47 WIB" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.praktikum.uas.automation.tests.PaymentInfoPageTest@198b6731]" started-at="2025-12-27T05:45:47 WIB" name="setUp" finished-at="2025-12-27T05:45:49 WIB" duration-ms="1821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.praktikum.uas.automation.tests.PaymentInfoPageTest@198b6731]" started-at="2025-12-27T05:45:49 WIB" name="setupTest" finished-at="2025-12-27T05:45:52 WIB" duration-ms="2826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="verifyPurchaseWithInfo()[pri:2, instance:com.praktikum.uas.automation.tests.PaymentInfoPageTest@198b6731]" started-at="2025-12-27T05:45:52 WIB" name="verifyPurchaseWithInfo" finished-at="2025-12-27T05:45:53 WIB" duration-ms="1357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPurchaseWithInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.praktikum.uas.automation.tests.PaymentInfoPageTest@198b6731]" started-at="2025-12-27T05:45:53 WIB" name="tearDown" finished-at="2025-12-27T05:45:53 WIB" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.praktikum.uas.automation.tests.PaymentInfoPageTest -->
+      <class name="com.praktikum.uas.automation.tests.ProductInfoPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.praktikum.uas.automation.tests.ProductInfoPageTest@489115ef]" started-at="2025-12-27T05:45:01 WIB" name="setUp" finished-at="2025-12-27T05:45:02 WIB" duration-ms="1671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.praktikum.uas.automation.tests.ProductInfoPageTest@489115ef]" started-at="2025-12-27T05:45:02 WIB" name="setupTest" finished-at="2025-12-27T05:45:02 WIB" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testAddPhoneToCart()[pri:1, instance:com.praktikum.uas.automation.tests.ProductInfoPageTest@489115ef]" started-at="2025-12-27T05:45:02 WIB" name="testAddPhoneToCart" finished-at="2025-12-27T05:45:06 WIB" duration-ms="3331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPhoneToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.praktikum.uas.automation.tests.ProductInfoPageTest@489115ef]" started-at="2025-12-27T05:45:06 WIB" name="tearDown" finished-at="2025-12-27T05:45:06 WIB" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.praktikum.uas.automation.tests.ProductInfoPageTest@489115ef]" started-at="2025-12-27T05:45:06 WIB" name="setUp" finished-at="2025-12-27T05:45:08 WIB" duration-ms="2081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.praktikum.uas.automation.tests.ProductInfoPageTest@489115ef]" started-at="2025-12-27T05:45:08 WIB" name="setupTest" finished-at="2025-12-27T05:45:08 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testAddLaptopToCart()[pri:3, instance:com.praktikum.uas.automation.tests.ProductInfoPageTest@489115ef]" started-at="2025-12-27T05:45:08 WIB" name="testAddLaptopToCart" finished-at="2025-12-27T05:45:11 WIB" duration-ms="3503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddLaptopToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.praktikum.uas.automation.tests.ProductInfoPageTest@489115ef]" started-at="2025-12-27T05:45:11 WIB" name="tearDown" finished-at="2025-12-27T05:45:12 WIB" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.praktikum.uas.automation.tests.ProductInfoPageTest@489115ef]" started-at="2025-12-27T05:45:12 WIB" name="setUp" finished-at="2025-12-27T05:45:13 WIB" duration-ms="1839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.praktikum.uas.automation.tests.ProductInfoPageTest@489115ef]" started-at="2025-12-27T05:45:13 WIB" name="setupTest" finished-at="2025-12-27T05:45:13 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testAddMonitorToCart()[pri:4, instance:com.praktikum.uas.automation.tests.ProductInfoPageTest@489115ef]" started-at="2025-12-27T05:45:13 WIB" name="testAddMonitorToCart" finished-at="2025-12-27T05:45:17 WIB" duration-ms="3047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMonitorToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.praktikum.uas.automation.tests.ProductInfoPageTest@489115ef]" started-at="2025-12-27T05:45:17 WIB" name="tearDown" finished-at="2025-12-27T05:45:17 WIB" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.praktikum.uas.automation.tests.ProductInfoPageTest -->
+      <class name="com.praktikum.uas.automation.tests.HomePageTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.praktikum.uas.automation.tests.HomePageTest@7586beff]" started-at="2025-12-27T05:44:43 WIB" name="setupReport" finished-at="2025-12-27T05:44:43 WIB" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.praktikum.uas.automation.tests.HomePageTest@7586beff]" started-at="2025-12-27T05:44:43 WIB" name="setUp" finished-at="2025-12-27T05:44:46 WIB" duration-ms="2673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.praktikum.uas.automation.tests.HomePageTest@7586beff]" started-at="2025-12-27T05:44:46 WIB" name="setupTest" finished-at="2025-12-27T05:44:46 WIB" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:com.praktikum.uas.automation.tests.HomePageTest@7586beff]" started-at="2025-12-27T05:44:46 WIB" name="verifyHomePageTitle" description="Memverifikasi apakah judul halaman adalah &#039;STORE&#039;" finished-at="2025-12-27T05:44:46 WIB" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.praktikum.uas.automation.tests.HomePageTest@7586beff]" started-at="2025-12-27T05:44:46 WIB" name="tearDown" finished-at="2025-12-27T05:44:46 WIB" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.praktikum.uas.automation.tests.HomePageTest@7586beff]" started-at="2025-12-27T05:44:46 WIB" name="setUp" finished-at="2025-12-27T05:44:48 WIB" duration-ms="1686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoPresence()[pri:2, instance:com.praktikum.uas.automation.tests.HomePageTest@7586beff]" started-at="2025-12-27T05:44:48 WIB" name="verifyLogoPresence" description="Memverifikasi apakah Logo DemoBlaze tampil" finished-at="2025-12-27T05:44:48 WIB" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoPresence -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.praktikum.uas.automation.tests.HomePageTest@7586beff]" started-at="2025-12-27T05:44:48 WIB" name="setupTest" finished-at="2025-12-27T05:44:48 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.praktikum.uas.automation.tests.HomePageTest@7586beff]" started-at="2025-12-27T05:44:48 WIB" name="tearDown" finished-at="2025-12-27T05:44:48 WIB" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.praktikum.uas.automation.tests.HomePageTest@7586beff]" started-at="2025-12-27T05:44:48 WIB" name="setUp" finished-at="2025-12-27T05:44:49 WIB" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.praktikum.uas.automation.tests.HomePageTest@7586beff]" started-at="2025-12-27T05:44:49 WIB" name="setupTest" finished-at="2025-12-27T05:44:49 WIB" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testPhoneCategoryNavigation()[pri:3, instance:com.praktikum.uas.automation.tests.HomePageTest@7586beff]" started-at="2025-12-27T05:44:49 WIB" name="testPhoneCategoryNavigation" description="Memverifikasi navigasi kategori HP" finished-at="2025-12-27T05:44:51 WIB" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPhoneCategoryNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.praktikum.uas.automation.tests.HomePageTest@7586beff]" started-at="2025-12-27T05:44:51 WIB" name="tearDown" finished-at="2025-12-27T05:44:51 WIB" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:com.praktikum.uas.automation.tests.HomePageTest@7586beff]" started-at="2025-12-27T05:45:53 WIB" name="tearDownReport" finished-at="2025-12-27T05:45:54 WIB" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- com.praktikum.uas.automation.tests.HomePageTest -->
+      <class name="com.praktikum.uas.automation.tests.SignUpPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.praktikum.uas.automation.tests.SignUpPageTest@3b0090a4]" started-at="2025-12-27T05:44:51 WIB" name="setUp" finished-at="2025-12-27T05:44:53 WIB" duration-ms="1875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.praktikum.uas.automation.tests.SignUpPageTest@3b0090a4]" started-at="2025-12-27T05:44:53 WIB" name="setupTest" finished-at="2025-12-27T05:44:53 WIB" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testRegisterUser()[pri:0, instance:com.praktikum.uas.automation.tests.SignUpPageTest@3b0090a4]" started-at="2025-12-27T05:44:53 WIB" name="testRegisterUser" description="Skenario pendaftaran user baru dengan data random" finished-at="2025-12-27T05:44:55 WIB" duration-ms="1925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.praktikum.uas.automation.tests.SignUpPageTest@3b0090a4]" started-at="2025-12-27T05:44:55 WIB" name="tearDown" finished-at="2025-12-27T05:44:55 WIB" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.praktikum.uas.automation.tests.SignUpPageTest -->
+    </test> <!-- Full End to End Automation -->
+  </suite> <!-- DemoBlaze Automation UAS Suite -->
+</testng-results>
