@@ -57,7 +57,7 @@ public class PaymentInfoPageTest extends BaseTest {
         paymentInfoPage = cartPage.goToPaymentPage();
 
         test.info("Mengisi detail pembayaran secara dinamis");
-        paymentInfoPage.sendDetails(); // Pastikan method ini ada di PaymentInfoPage
+        paymentInfoPage.sendDetails();
 
         paymentInfoPage.clickPurchaseBtn();
 
@@ -65,7 +65,6 @@ public class PaymentInfoPageTest extends BaseTest {
         String successMsg = paymentInfoPage.getSuccessMsg();
         test.info("Validasi pesan: " + successMsg);
 
-        // DemoBlaze biasanya menampilkan teks ini di elemen h2
         Assert.assertTrue(successMsg.contains("Thank you for your purchase"), "Pesan sukses tidak sesuai!");
         test.pass("Transaksi berhasil diselesaikan.");
     }

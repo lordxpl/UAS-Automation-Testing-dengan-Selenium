@@ -29,11 +29,11 @@ public class LoginPageTest extends BaseTest {
 
         if (type.equals("Valid")) {
             // Verifikasi login berhasil (misal: cek tombol logout muncul)
-            // Di sini kita asumsikan jika tidak ada alert, berarti login masuk
+            // Di sini asumsikan jika tidak ada alert, berarti login masuk
             test.pass("Login berhasil untuk user valid.");
             Assert.assertTrue(true);
         } else {
-            // Untuk data invalid, kita cek pesan error di Alert
+            // Untuk data invalid, cek pesan error di Alert
             String alertText = loginPage.getAlertText();
             test.info("Pesan alert yang muncul: " + alertText);
 
@@ -45,7 +45,6 @@ public class LoginPageTest extends BaseTest {
     @DataProvider(name = "LoginData")
     public Object[][] getData() {
         // Data uji: {Username, Password, Tipe Skenario}
-        // Kamu bisa ganti "user_arga_uas" dengan username yang sudah kamu register sebelumnya
         return new Object[][] {
                 {"user_tidak_ada_123", "salah_pass", "Invalid"},
                 {"user_arga_uas", "password123", "Valid"}

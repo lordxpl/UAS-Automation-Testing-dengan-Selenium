@@ -12,12 +12,12 @@ public class ProductInfoPageTest extends BaseTest {
 
     private ProductInfoPage productInfoPage;
     private HomePage homePage;
-    private CartPage cartPage; // FIX: Deklarasi variabel global agar bisa dipakai di semua @Test
+    private CartPage cartPage; // Deklarasi variabel global agar bisa dipakai di semua @Test
 
     @BeforeMethod
     public void setupTest() {
         homePage = new HomePage(driver);
-        cartPage = new CartPage(driver); // FIX: Inisialisasi cartPage di sini
+        cartPage = new CartPage(driver); //Inisialisasi cartPage
     }
 
     @Test(priority = 1, groups = {"ProductSelection"})
