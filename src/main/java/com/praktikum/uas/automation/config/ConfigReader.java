@@ -1,4 +1,4 @@
-package com.praktikum.uas.automation.config; // Ini harus sama dengan nama folder tempat file berada
+package com.praktikum.uas.automation.config;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -11,7 +11,6 @@ public class ConfigReader {
     static {
         try {
             prop = new Properties();
-            // Sesuaikan path ini dengan letak file config.properties kamu
             FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/main/resources/config.properties");
             prop.load(fis);
         } catch (IOException e) {
